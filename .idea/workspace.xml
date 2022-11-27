@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e57cb8b-f30e-42cf-9b34-2050afa2ea62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+    <list default="true" id="7e57cb8b-f30e-42cf-9b34-2050afa2ea62" name="Changes" comment="Passwort Validirung">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.woertLängeWenigerAlsAcht">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Test1" />
@@ -140,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.woertLängeWenigerAlsAcht" />
-        <item itemvalue="JUnit.MainTest.DasPasswortBrauchteineZahl" />
-        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MainTest.DeinPasswortHatEineZahl" />
+        <item itemvalue="JUnit.MainTest.DasPasswortBrauchteineZahl" />
+        <item itemvalue="JUnit.MainTest.woertLängeWenigerAlsAcht" />
+        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +151,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669371711385</updated>
       <workItem from="1669371712669" duration="2500000" />
-      <workItem from="1669374391429" duration="40369000" />
+      <workItem from="1669374391429" duration="40678000" />
     </task>
+    <task id="LOCAL-00001" summary="Passwort Validirung">
+      <created>1669576596672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669576596672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +176,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Passwort Validirung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passwort Validirung" />
   </component>
 </project>
