@@ -20,7 +20,7 @@ class MainTest {
     }
     @Test
     void DasPasswortBrauchteineZahl() {
-        boolean actual = Main.zahlImWort("Halloworld");
+        boolean actual = Main.zahlImWort("HalloOworld");
         assertEquals(actual, false);
     }
 

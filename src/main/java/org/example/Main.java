@@ -13,9 +13,9 @@ public class Main {
 
     public static String WoertLaengeUndEineNummerImWort(String passwort) {
         int wortlaenge = passwort.length();
-        if (zahlImWort(passwort))
+        if (zahlImWort(passwort)) {
             return "Dein Passwort muss mindestens eine Zahl enthalten";
-
+        }
         if (wortlaenge >= 8 ) {
             return "Dein Passwort ist Gut";}
         else if (wortlaenge <= 8 ) {
