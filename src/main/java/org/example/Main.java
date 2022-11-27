@@ -10,6 +10,7 @@ public class Main {
         String passwort = input.nextLine();
         System.out.println(WoertLaengeUndEineNummerImWort(passwort));
     }
+    public static char[] nummern ={'1','2','3','4','5','6','7','8','9','0'};
 
     public static String WoertLaengeUndEineNummerImWort(String passwort) {
         int wortlaenge = passwort.length();
@@ -27,7 +28,6 @@ public class Main {
         else return "Ungültige Eingabe";
     }
     public static boolean zahlImWort(String str) {
-        String regex = "[0-9]+";
          return !str.matches(".*\\d.*");
 
     }
