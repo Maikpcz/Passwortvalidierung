@@ -16,15 +16,19 @@ public class Main {
         if (zahlImWort(passwort)) {
             return "Dein Passwort muss mindestens eine Zahl enthalten";
         }
+
+
         if (wortlaenge >= 8 ) {
-            return "Dein Passwort ist Gut";}
+        return "Dein Passwort ist Gut";}
+
         else if (wortlaenge <= 8 ) {
             return "Das Wort hat zu wenig Buchstaben";
         }
         else return "Ungültige Eingabe";
     }
     public static boolean zahlImWort(String str) {
-         return str.matches(".*\\d.*");
+        String regex = "[0-9]+";
+         return !str.matches(".*\\d.*");
 
     }
 }
