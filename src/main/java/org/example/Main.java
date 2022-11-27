@@ -13,18 +13,18 @@ public class Main {
 
     public static String WoertLaengeUndEineNummerImWort(String passwort) {
         int wortlaenge = passwort.length();
-        if (zahlImWort(passwort)) {
+        if (zahlImWort(passwort))
             return "Dein Passwort muss mindestens eine Zahl enthalten";
-        }
 
-        if (wortlaenge >= 8 ) {return "Dein Passwort ist Gut";}
-
-        else if (wortlaenge <= 8 ) {return "Das Wort hat zu wenig Buchstaben";
+        if (wortlaenge >= 8 ) {
+            return "Dein Passwort ist Gut";}
+        else if (wortlaenge <= 8 ) {
+            return "Das Wort hat zu wenig Buchstaben";
         }
         else return "Ungültige Eingabe";
     }
     public static boolean zahlImWort(String str) {
-         return !str.matches(".*\\d.*");
+         return str.matches(".*\\d.*");
 
     }
 }
